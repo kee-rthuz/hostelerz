@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../fonts/VeganStylePersonalUse-5Y58.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('../fonts/VeganStylePersonalUse-5Y58.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+.signup{
+
+    width: 40%;
+    border-radius: 20px;
+}
+.brand{
+    font-family: 'MyWebFont' !important;
+    letter-spacing: 3px;
+}
+.left-list{
+    list-style-type: none;
+    margin-top: 150px !important;
+    margin-left: -40px !important;
+}
+.left-list li{
+    display: block;
+    margin-bottom: 60px;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+.bt{
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+.bt:hover{
+    background-color: rgb(60, 60, 255) !important;
+}
+.logout{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.err{
+    color: red;
+}
+.font{
+    font-family: MyWebFont;
+}
+button.btn-hov:hover{
+    cursor: not-allowed !important;
+}
